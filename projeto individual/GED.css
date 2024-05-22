@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.user-actions {
+    float: right;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info h2 {
+    font-size: 24px;
+    color: purple;
+    transition: font-size 0.3s ease;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Efeito de aumento no hover */
+.info h2:hover {
+    font-size: 28px;
+}
